@@ -1,0 +1,14 @@
+<html>
+<div class="btn-group">
+  <canvas id = 'c'></canvas>
+  <mat-slider step="0.25" min="0.25" max="5" (change)="updateSlider($event)"
+  discrete thumblabel>
+   <input matSliderThumb [(ngModel)]="value" >
+ </mat-slider>
+  <button (click)="drawRayBoundry()">Ray Diagram</button>
+  <button (click)="fillRayBoundry()">Fill Diagram</button>
+  <button (click)="drawImage()">Trace Image</button> 
+  <h4>Adjust Aperture</h4>
+  </div>
+  </html>
+  

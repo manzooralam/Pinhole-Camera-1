@@ -1,0 +1,45 @@
+
+.button{
+  background-color:#4caf50;
+  border:none;color:#fff;
+  padding:15px 32px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-size:20px;
+}
+.btn-group{
+  background-color: #535053; 
+  border: 1px solid rgb(133, 110, 9); 
+  color: white; 
+  padding: 5px 5px; 
+  cursor: pointer; 
+  display:inline-block;
+  align-items: center;
+  justify-content: center;
+}
+.mat-slider {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  vertical-align: middle;
+}
+html {
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Arial, sans-serif;
+ padding: 1em; 
+} 
+
+@media screen and (max-width: 500px) {
+html {
+    height: 90vh;
+    width:fit-content;
+}
+.mat-typography{
+    width: fit-content;
+}
+} 
