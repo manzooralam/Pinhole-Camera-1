@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "thinktac-games": {
+      "hosting": {
+        "pinhole-camera-1": [
+          "pinhole-camera-1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "thinktac-games"
+  }
+}

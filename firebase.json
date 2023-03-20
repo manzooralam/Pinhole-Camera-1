@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "target": "pinhole-camera-1",
+    "public": "dist/angular-app",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
